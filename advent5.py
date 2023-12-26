@@ -23,11 +23,10 @@ def findNextNumber(seed, lineNum):
     return seed
 
 
-print(findNextNumber(seeds[1],3))
+print((seeds[1],3))
 
 for seed in seeds:
     number=findNextNumber(findNextNumber(findNextNumber(findNextNumber(findNextNumber(findNextNumber(findNextNumber(seed,3),21),56),84),124),136),175)
-    print("wahoo")
     if(lowest==-1 or number<lowest):
         lowestseed=seed
         lowest=number
